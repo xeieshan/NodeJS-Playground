@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-playground",
+  "version": "1.0.0",
+  "description": "My Playground for nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon ./app.js",
+    "arrow-challenge" : "nodemon ./playground/3-arrow-challenge.js",
+    "ECMAScript2015": "nodemon ./playground/2-ECMAScript2015.js",
+    "json": "node ./playground/1-json.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeieshan/Notes-App.git"
+  },
+  "keywords": [
+    "notes-app",
+    "nodejs"
+  ],
+  "author": "Zeeshan Haider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xeieshan/Notes-App/issues"
+  },
+  "homepage": "https://github.com/xeieshan/Notes-App#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "validator": "^13.6.0"
+  }
+}
