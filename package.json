@@ -7,7 +7,8 @@
     "test": "nodemon ./app.js",
     "arrow-challenge" : "nodemon ./playground/3-arrow-challenge.js",
     "ECMAScript2015": "nodemon ./playground/2-ECMAScript2015.js",
-    "json": "nodemon ./playground/1-json.js"
+    "json": "nodemon ./playground/1-json.js",
+    "asynchronous-nodejs": "nodemon ./playground/4-asynchronous-nodejs.js"
   },
   "repository": {
     "type": "git",
