@@ -11,3 +11,4 @@ const logMessage = function (message) {
 }
 
 module.exports.log = logMessage;
+module.exports.add = add;
