@@ -27,3 +27,14 @@ const add = (x, y, callback) => {
 add(1, 2, (sum) => {
   utils.log(chalk.blue("Sum is: " + sum));
 });
+
+const multiple = (x,y,callback) => {
+  setTimeout(() => { 
+    utils.log("2 seconds are up!");
+    callback(x*y);
+  }, 2000)
+};
+
+multiple(3,3, (multiply) => {
+  utils.log(chalk.blue("Result of multiplication is: " + multiply));
+})
